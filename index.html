@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aleks Biteman — Aviation Professional</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">AB</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#flight-stats">Flight Stats</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-placeholder">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="40" cy="30" r="18" fill="currentColor" opacity=".4"/>
+            <ellipse cx="40" cy="68" rx="28" ry="18" fill="currentColor" opacity=".3"/>
+          </svg>
+          <span class="photo-label">Photo coming soon</span>
+        </div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-eyebrow">Aviation Professional</p>
+        <h1 class="hero-name">Aleks Biteman</h1>
+        <p class="hero-title">ATP · HS-125 Type Rating · Captain, SpiritJets</p>
+        <p class="hero-tagline">
+          2,500+ hours aloft. A career built on precision, safety, and a deep love for the skies.
+        </p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- RATINGS STRIP -->
+  <section class="ratings-strip">
+    <div class="container ratings-inner">
+      <div class="rating-badge">
+        <svg class="rating-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        <div>
+          <span class="rating-label">Certificate</span>
+          <span class="rating-value">ATP AMEL</span>
+        </div>
+      </div>
+      <div class="rating-divider"></div>
+      <div class="rating-badge">
+        <svg class="rating-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        <div>
+          <span class="rating-label">Type Rating</span>
+          <span class="rating-value">HS-125</span>
+        </div>
+      </div>
+      <div class="rating-divider"></div>
+      <div class="rating-badge">
+        <svg class="rating-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <div>
+          <span class="rating-label">Total Flight Time</span>
+          <span class="rating-value">2,513 hrs</span>
+        </div>
+      </div>
+      <div class="rating-divider"></div>
+      <div class="rating-badge">
+        <svg class="rating-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <div>
+          <span class="rating-label">Current Role</span>
+          <span class="rating-value">Captain</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIGHT STATS -->
+  <section class="section" id="flight-stats">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">By the Numbers</p>
+        <h2 class="section-title">Flight Hours</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card" data-value="2513">
+          <span class="stat-number" data-target="2513">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Total Time</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 100%"></div></div>
+        </div>
+        <div class="stat-card" data-value="1805">
+          <span class="stat-number" data-target="1805">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Pilot-in-Command</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 72%"></div></div>
+        </div>
+        <div class="stat-card" data-value="1456">
+          <span class="stat-number" data-target="1456">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Multi-Engine</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 58%"></div></div>
+        </div>
+        <div class="stat-card" data-value="961">
+          <span class="stat-number" data-target="961">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Turbine</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 38%"></div></div>
+        </div>
+        <div class="stat-card" data-value="339">
+          <span class="stat-number" data-target="339">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Turbine PIC</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 13%"></div></div>
+        </div>
+        <div class="stat-card" data-value="135">
+          <span class="stat-number" data-target="135">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">Night</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 5%"></div></div>
+        </div>
+        <div class="stat-card" data-value="57">
+          <span class="stat-number" data-target="57">0</span>
+          <span class="stat-suffix">hrs</span>
+          <span class="stat-label">IR Actual</span>
+          <div class="stat-bar"><div class="stat-fill" style="--pct: 2%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Career History</p>
+        <h2 class="section-title">Work Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">SpiritJets</h3>
+                <p class="timeline-role">Captain</p>
+              </div>
+              <span class="timeline-date">Mar 2025 – Present</span>
+            </div>
+            <span class="timeline-badge timeline-badge--current">Current</span>
+            <p class="timeline-desc">
+              Responsible for flight planning, performance calculations, and regulatory compliance. Ensuring safe and efficient operations through risk assessment and adherence to company and FAA standards. Mentoring and developing First Officers, providing guidance on technical proficiency and professional growth.
+            </p>
+            <ul class="timeline-tags">
+              <li>Flight Planning</li>
+              <li>FAA Compliance</li>
+              <li>Risk Assessment</li>
+              <li>Crew Leadership</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">SpiritJets</h3>
+                <p class="timeline-role">First Officer</p>
+              </div>
+              <span class="timeline-date">Feb 2023 – Mar 2025</span>
+            </div>
+            <p class="timeline-desc">
+              Assisted captains with all aspects of flight operations, ensuring compliance with company GOM, OpSpecs, and federal regulations, while maintaining a safe environment in flight and on the ground by anticipating potential hazards and collaborating with the crew to mitigate risks.
+            </p>
+            <ul class="timeline-tags">
+              <li>GOM / OpSpecs</li>
+              <li>Hazard Mitigation</li>
+              <li>CRM</li>
+              <li>Part 135</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Maxar Technologies</h3>
+                <p class="timeline-role">Aeronautical Analyst</p>
+              </div>
+              <span class="timeline-date">Mar 2021 – Jan 2023</span>
+            </div>
+            <p class="timeline-desc">
+              Collected, analyzed, and converted global aeronautical data into digital and graphic formats for DoD flight operations, ensuring safety and compliance with evolving procedures through en route charts and terminal procedures.
+            </p>
+            <ul class="timeline-tags">
+              <li>Aeronautical Data</li>
+              <li>DoD Operations</li>
+              <li>En Route Charts</li>
+              <li>Terminal Procedures</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">SkyLens</h3>
+                <p class="timeline-role">Survey Pilot</p>
+              </div>
+              <span class="timeline-date">Oct 2018 – Oct 2019</span>
+            </div>
+            <p class="timeline-desc">
+              Conducted aerial survey missions across the US while organizing location basing, aircraft management & maintenance. Provided new employee flight training, familiarizing them with camera and computer systems onboard the aircraft.
+            </p>
+            <ul class="timeline-tags">
+              <li>Aerial Survey</li>
+              <li>Aircraft Management</li>
+              <li>Flight Training</li>
+              <li>Sensor Systems</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What I Bring</p>
+        <h2 class="section-title">Proficiencies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Software Development</h3>
+          <p>Amateur software development with hands-on experience building tools and applications.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3h18v18H3z"/><path d="M3 9h18M3 15h18M9 3v18"/></svg>
+          </div>
+          <h3>Advanced Excel</h3>
+          <p>Advanced spreadsheet knowledge including data analysis, automation, and complex modeling.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          </div>
+          <h3>Computer Hardware</h3>
+          <p>Custom computer building, hardware troubleshooting, and system optimization.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Front-end web development with working knowledge of modern HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <h3>Motion Graphics</h3>
+          <p>Motion graphics software and 3D modelling for creative and technical visualization projects.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.14 1a2 2 0 011.99-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 6.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3>Aeronautical Analysis</h3>
+          <p>Converting aeronautical data into compliant digital formats for government and DoD flight operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Academic Background</p>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-body">
+            <span class="edu-date">Nov 2017 – May 2018</span>
+            <h3 class="edu-school">ATP Flight School — Mesa Gateway</h3>
+            <p class="edu-location">Phoenix, Arizona</p>
+            <p class="edu-detail">Aviation – Airplane: Commercial Single Engine, Multi-Engine &amp; Instrument</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-body">
+            <span class="edu-date">Nov 2014 – Jan 2017</span>
+            <h3 class="edu-school">Highline College</h3>
+            <p class="edu-location">Midway, Washington</p>
+            <p class="edu-detail">General Studies — Pursuing Associate of Arts Degree</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Let's Connect</p>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card" href="tel:2069131305">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.14 1a2 2 0 011.99-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 6.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">(206) 913-1305</span>
+          </div>
+        </a>
+        <a class="contact-card" href="mailto:aleks@biteman.org">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">aleks@biteman.org</span>
+          </div>
+        </a>
+        <div class="contact-card contact-card--location">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Desoto, MO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Aleks Biteman</span>
+      <span class="footer-copy">ATP · HS-125 · Captain</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
