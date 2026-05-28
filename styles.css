@@ -212,7 +212,7 @@ img { max-width: 100%; display: block; }
   height: 220px !important;
   max-width: none !important;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 15%;
   border-radius: 50%;
 }
 
@@ -921,7 +921,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 480px) {
   .section { padding: 72px 0; }
 
-  .hero-photo-wrap { width: 160px; height: 160px; }
+  .hero-photo-wrap { width: 180px; height: 180px; }
+  .hero-photo { width: 180px !important; height: 180px !important; }
 
   .stat-number { font-size: 2.3rem; }
 
