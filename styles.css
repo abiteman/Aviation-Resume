@@ -199,19 +199,11 @@ img { max-width: 100%; display: block; }
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  overflow: hidden;
+  background: url('profile.jpg') center top / cover no-repeat;
   border: 1.5px solid rgba(74, 124, 243, 0.3);
   box-shadow:
     0 0 0 8px rgba(74, 124, 243, 0.06),
     0 0 60px rgba(59, 110, 240, 0.18);
-}
-
-.hero-photo {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  object-position: center top;
-  display: block;
 }
 
 .hero-eyebrow {
@@ -920,7 +912,6 @@ img { max-width: 100%; display: block; }
   .section { padding: 72px 0; }
 
   .hero-photo-wrap { width: 160px; height: 160px; }
-  .hero-photo { width: 160px; height: 160px; }
 
   .stat-number { font-size: 2.3rem; }
 
