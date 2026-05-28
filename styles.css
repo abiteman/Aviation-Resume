@@ -213,6 +213,7 @@ img { max-width: 100%; display: block; }
   max-width: none !important;
   object-fit: cover;
   object-position: center top;
+  border-radius: 50%;
 }
 
 .hero-eyebrow {
